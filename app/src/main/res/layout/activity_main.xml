@@ -8,21 +8,22 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/conoce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/conoceTuDestino"
+        android:text="Conoce tu destino"
         android:layout_gravity="center"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         android:textSize="24sp"
         android:textColor="#000000"
-        android:textStyle="italic|bold" />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="48dp"
         app:srcCompat="@drawable/ball" />
 
     <TextView
@@ -30,10 +31,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="24dp"
-        android:text="..."
+        android:layout_marginTop="30dp"
+        android:text="Toca la bola 8"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1.1in"
+        android:text="Conoce tu nota"
+        android:textColor="#000000"
+        android:textStyle=""
+        android:textSize="20sp" />
 
 </LinearLayout>
