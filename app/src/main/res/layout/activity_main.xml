@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6291BC"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,12 +12,12 @@
         android:id="@+id/conoce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conoce tu destino"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="20dp"
-        android:textSize="24sp"
+        android:text="Conoce tu destino"
         android:textColor="#000000"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <ImageView
@@ -28,13 +29,14 @@
 
     <TextView
         android:id="@+id/respuesta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:text="Toca la bola 8"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:textAlignment="center"
         android:textStyle="italic|bold" />
 
     <TextView
@@ -42,10 +44,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="1.1in"
+        android:layout_marginTop="0.5in"
         android:text="Conoce tu nota"
         android:textColor="#000000"
-        android:textStyle=""
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="" />
 
 </LinearLayout>
